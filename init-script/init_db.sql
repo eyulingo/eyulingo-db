@@ -49,8 +49,8 @@ CREATE TABLE Stores
     `cover_id` VARCHAR(128),
     `store_address` VARCHAR(128),
     `store_phone` VARCHAR(16),
-    `start_time` TIME(0),
-    `end_time` TIME(0),
+    `start_time` VARCHAR(8),
+    `end_time` VARCHAR(8),
     `deliver_method` VARCHAR(32),
 
     `dist_name` VARCHAR(64),
