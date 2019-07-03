@@ -129,7 +129,7 @@ CREATE TABLE Orders
     `re_address` VARCHAR(128),
     `deliver_method` VARCHAR(32),
     `status` VARCHAR(16),
-    `order_time` TIMEDATE,
+    `order_time` TIMESTAMP,
     PRIMARY KEY (`order_id`),
     FOREIGN KEY (`user_id`) REFERENCES Users(`user_id`) ON DELETE RESTRICT,
     FOREIGN KEY (`deliver_method`) REFERENCES Delivers(`deliver_name`) ON DELETE RESTRICT
@@ -143,14 +143,14 @@ CREATE TABLE OrderItems
     `amount` INTEGER,
     PRIMARY KEY (`order_id`, `good_id`),
     FOREIGN KEY (`order_id`) REFERENCES Orders(`order_id`) ON DELETE RESTRICT,
-    FOREIGN KEY (`good_id`) REFERENCES Goods(`good_id`) ON DELETE RESTRICT,
+    FOREIGN KEY (`good_id`) REFERENCES Goods(`good_id`) ON DELETE RESTRICT
 );
 
 CREATE TABLE CheckCodes
 (
     `phone_num` VARCHAR(16),
     `check_code` VARCHAR(8),
-    `time` DATETIME,
+    `time` TIMESTAMP,
     PRIMARY KEY (`phone_num`)
 );
 
