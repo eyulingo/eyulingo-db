@@ -27,14 +27,14 @@ CREATE TABLE Delivers
 
 CREATE TABLE Tags
 (
-    `good_id` VARCHAR(64),
+    `good_id` INTEGER,
     `tag_name` VARCHAR(32),
     PRIMARY KEY (`good_id`, `tag_name`)
 );
 
 CREATE TABLE Users
 (
-    `user_id` VARCHAR(64),
+    `user_id` INTEGER,
     `user_name` VARCHAR(64),
     `password` VARCHAR(64),
     `user_phone` VARCHAR(16),
@@ -44,7 +44,7 @@ CREATE TABLE Users
 
 CREATE TABLE Stores
 (
-    `store_id` VARCHAR(64),
+    `store_id` INTEGER,
     `store_name` VARCHAR(64),
     `cover_id` VARCHAR(128),
     `store_address` VARCHAR(128),
@@ -72,9 +72,9 @@ CREATE TABLE Admins
 
 CREATE TABLE Goods
 (
-    `good_id` VARCHAR(64),
+    `good_id` INTEGER,
     `good_name` VARCHAR(64),
-    `store_id` VARCHAR(64),
+    `store_id` INTEGER,
     `price` DECIMAL(8, 2),
     `discount` DECIMAL(8, 2),
     `storage` INTEGER,
@@ -87,8 +87,8 @@ CREATE TABLE Goods
 
 CREATE TABLE GoodComments
 (
-    `good_id` VARCHAR(64),
-    `user_id` VARCHAR(64),
+    `good_id` INTEGER,
+    `user_id` INTEGER,
     `star` INTEGER,
     `good_comment` VARCHAR(1024),
 
@@ -99,8 +99,8 @@ CREATE TABLE GoodComments
 
 CREATE TABLE StoreComments
 (
-    `store_id` VARCHAR(64),
-    `user_id` VARCHAR(64),
+    `store_id` INTEGER,
+    `user_id` INTEGER,
     `star` INTEGER,
     `store_comment` VARCHAR(1024),
 
@@ -111,8 +111,8 @@ CREATE TABLE StoreComments
 
 CREATE TABLE Carts
 (
-    `user_id` VARCHAR(64),
-    `good_id` VARCHAR(64),
+    `user_id` INTEGER,
+    `good_id` INTEGER,
     `amount` INTEGER,
 
     PRIMARY KEY (`user_id`, `good_id`),
@@ -122,8 +122,8 @@ CREATE TABLE Carts
 
 CREATE TABLE Orders
 (
-    `order_id` VARCHAR(64),
-    `user_id` VARCHAR(64),
+    `order_id` INTEGER,
+    `user_id` INTEGER,
     `receiver` VARCHAR(16),
     `re_phone` VARCHAR(16),
     `re_address` VARCHAR(128),
@@ -137,8 +137,8 @@ CREATE TABLE Orders
 
 CREATE TABLE OrderItems
 (
-    `order_id` VARCHAR(64),
-    `good_id` VARCHAR(64),
+    `order_id` INTEGER,
+    `good_id` INTEGER,
     `current_price` DECIMAL(8, 2),
     `amount` INTEGER,
     PRIMARY KEY (`order_id`, `good_id`),
