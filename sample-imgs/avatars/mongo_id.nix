@@ -84,9 +84,9 @@ mongo_id.good_cover rec {
     }
 
     shop_7 = {
-        good_1 = "";
-        good_2 = "";
-        good_3 = "";
+        good_1 = "5d1d6fb263445900071514b0";
+        good_2 = "5d1d6fbf63445900071514b4";
+        good_3 = "5d1d6fc963445900071514b6";
     }
 
     shop_8 = {
