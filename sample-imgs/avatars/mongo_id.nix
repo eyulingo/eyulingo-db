@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-
 mongo_id.user_avatar rec {
     user_1 = "5d1d5cbe634459000715142f";
     user_2 = "5d1d5d326344590007151431";
