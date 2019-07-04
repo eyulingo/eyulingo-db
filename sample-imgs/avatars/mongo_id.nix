@@ -110,15 +110,16 @@ mongo_id.good_cover rec {
     }
 
     shop_11 = {
-        good_1 = "";
-        good_2 = "";
-        good_3 = "";
+        good_1 = "5d1d71f363445900071514cf";
+        good_2 = "5d1d71fe63445900071514d1";
+        good_3 = "5d1d720b63445900071514d3";
     }
 
     shop_12 = {
-        good_1 = "";
-        good_2 = "";
-        good_3 = "";
+        good_1 = "5d1d729c63445900071514d5";
+        good_2 = "5d1d72a763445900071514d7";
+        good_3 = "5d1d72b263445900071514da";
+        good_4 = "5d1d72bf63445900071514dc";
     }
 
     shop_13 = {
