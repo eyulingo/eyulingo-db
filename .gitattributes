@@ -1,5 +1,5 @@
 *.sql linguist-detectable=true
-/sql-init-script/*.sql linguist-generated=true
-/[deprecated] init-script/preset_data.sql linguist-generated=true
+generated-init-script/*.sql linguist-generated=true
+init-script/preset_data.sql linguist-generated=true
 *.md linguist-detectable=true
 *.rtf linguist-detectable=true
