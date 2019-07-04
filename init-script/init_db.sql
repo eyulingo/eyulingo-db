@@ -2,7 +2,10 @@ SET GLOBAL time_zone = "+8:00";
 FLUSH PRIVILEGES;
 
 DROP DATABASE IF EXISTS eyulingo_db;
+
 CREATE DATABASE eyulingo_db;
+
+ALTER DATABASE eyulingo_db CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci;
 
 USE eyulingo_db;
 
