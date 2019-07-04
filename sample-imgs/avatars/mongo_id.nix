@@ -7,7 +7,7 @@ mongo_id.user_avatar rec {
     user_4 = "5d1d5d526344590007151435";
     user_5 = "5d1d5d5e6344590007151437";
     user_6 = "5d1d5d6b6344590007151439";
-};
+}
 
 mongo_id.dist_avatar rec {
     dist_1 = "5d1d5e47634459000715143b";
@@ -23,7 +23,7 @@ mongo_id.dist_avatar rec {
     dist_11 = "5d1d5ece634459000715144f";
     dist_12 = "5d1d5edd6344590007151451";
     dist_13 = "5d1d5ee86344590007151453";
-};
+}
 
 mongo_id.shop_cover rec {
     shop_1 = "5d1d683a6344590007151455";
@@ -39,58 +39,88 @@ mongo_id.shop_cover rec {
     shop_11 = "5d1d68de6344590007151473";
     shop_12 = "5d1d68f36344590007151475";
     shop_13 = "5d1d69026344590007151477";
-};
+}
 
 mongo_id.good_cover rec {
-    shop_1 rec {
-        
-    };
+    shop_1 {
+        good_1 = "5d1d6ab66344590007151479";
+        good_2 = "5d1d6ac1634459000715147b";
+        good_3 = "5d1d6acc634459000715147d";
+        good_4 = "5d1d6ad9634459000715147f";
+    }
 
-    shop_2 rec {
-        
-    };
+    shop_2 {
+        good_1 = "5d1d6b3b6344590007151481";
+        good_2 = "5d1d6b476344590007151483";
+        good_3 = "5d1d6b506344590007151485";
+        good_4 = "5d1d6b596344590007151487";
+    }
 
-    shop_3 rec {
-        
-    };
+    shop_3 {
+        good_1 = "5d1d6bba6344590007151489";
+        good_2 = "5d1d6bd6634459000715148d";
+        good_3 = "5d1d6be0634459000715148f";
+        good_4 = "5d1d6bea6344590007151491";
+    }
 
-    shop_4 rec {
-        
-    };
+    shop_4 {
+        good_1 = "5d1d6c2b6344590007151493";
+        good_2 = "5d1d6c356344590007151496";
+        good_3 = "5d1d6c416344590007151499";
+        good_4 = "5d1d6c51634459000715149b";
+    }
 
-    shop_5 rec {
-        
-    };
+    shop_5 {
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
+    }
 
-    shop_6 rec {
-        
-    };
+    shop_6 {
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
+    }
 
-    shop_7 rec {
-        
-    };
+    shop_7 {
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
+    }
 
-    shop_8 rec {
-        
-    };
+    shop_8 {
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
+    }
 
-    shop_9 rec {
-        
-    };
+    shop_9 {
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
+    }
 
-    shop_10 rec {
-        
-    };
+    shop_10 {
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
+    }
 
-    shop_11 rec {
-        
-    };
+    shop_11 {
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
+    }
 
-    shop_12 rec {
-        
-    };
+    shop_12 {
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
+    }
 
-    shop_13 rec {
-        
-    };
+    shop_13 {
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
+    }
 }
