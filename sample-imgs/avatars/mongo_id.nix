@@ -6,6 +6,7 @@ mongo_id.user_avatar rec {
     user_5 = "5d1d5d5e6344590007151437";
     user_6 = "5d1d5d6b6344590007151439";
 }
+# Default Normal User Avatars
 
 mongo_id.dist_avatar rec {
     dist_1 = "5d1d5e47634459000715143b";
@@ -22,22 +23,49 @@ mongo_id.dist_avatar rec {
     dist_12 = "5d1d5edd6344590007151451";
     dist_13 = "5d1d5ee86344590007151453";
 }
+# Distributor Avatars
 
 mongo_id.shop_cover rec {
     shop_1 = "5d1d683a6344590007151455";
+    # Name: Apple Store 零售店
+
     shop_2 = "5d1d685a634459000715145a";
+    # Name: Microsoft 零售店
+
     shop_3 = "5d1d6868634459000715145c";
+    # Name: FamilyMart 全家便利店
+
     shop_4 = "5d1d687e6344590007151463";
+    # Name: Lawson 罗森便利店
+
     shop_5 = "5d1d688e6344590007151466";
+    # Name: 7-Eleven 便利店
+
     shop_6 = "5d1d689a6344590007151468";
+    # Name: MontBlanc
+
     shop_7 = "5d1d68a6634459000715146a";
+    # Name: 华为零售店
+
     shop_8 = "5d1d68b3634459000715146c";
+    # Name: 京东专卖店
+
     shop_9 = "5d1d68bf634459000715146e";
+    # Name: 魅族专卖店
+
     shop_10 = "5d1d68cc6344590007151470";
+    # Name: LUSH Fresh Handmade Cosmetics
+
     shop_11 = "5d1d68de6344590007151473";
+    # Name: Walmart 沃尔玛
+
     shop_12 = "5d1d68f36344590007151475";
+    # Name: Mayo Clinic 药店
+
     shop_13 = "5d1d69026344590007151477";
+    # Name: McDonald's 麦当劳快餐店
 }
+# Shops' Covers
 
 mongo_id.good_cover rec {
     shop_1 = {
