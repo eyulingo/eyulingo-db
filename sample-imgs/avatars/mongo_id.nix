@@ -7,7 +7,7 @@ mongo_id.user_avatar rec {
     user_4 = "5d1d5d526344590007151435";
     user_5 = "5d1d5d5e6344590007151437";
     user_6 = "5d1d5d6b6344590007151439";
-}
+};
 
 mongo_id.dist_avatar rec {
     dist_1 = "5d1d5e47634459000715143b";
@@ -23,7 +23,7 @@ mongo_id.dist_avatar rec {
     dist_11 = "5d1d5ece634459000715144f";
     dist_12 = "5d1d5edd6344590007151451";
     dist_13 = "5d1d5ee86344590007151453";
-}
+};
 
 mongo_id.shop_cover rec {
     shop_1 = "5d1d683a6344590007151455";
@@ -39,4 +39,58 @@ mongo_id.shop_cover rec {
     shop_11 = "5d1d68de6344590007151473";
     shop_12 = "5d1d68f36344590007151475";
     shop_13 = "5d1d69026344590007151477";
+};
+
+mongo_id.good_cover rec {
+    shop_1 rec {
+        
+    };
+
+    shop_2 rec {
+        
+    };
+
+    shop_3 rec {
+        
+    };
+
+    shop_4 rec {
+        
+    };
+
+    shop_5 rec {
+        
+    };
+
+    shop_6 rec {
+        
+    };
+
+    shop_7 rec {
+        
+    };
+
+    shop_8 rec {
+        
+    };
+
+    shop_9 rec {
+        
+    };
+
+    shop_10 rec {
+        
+    };
+
+    shop_11 rec {
+        
+    };
+
+    shop_12 rec {
+        
+    };
+
+    shop_13 rec {
+        
+    };
 }
