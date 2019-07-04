@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-
 mongo_id.user_avatar rec {
     user_1 = "5d1d5cbe634459000715142f";
     user_2 = "5d1d5d326344590007151431";
@@ -43,54 +41,84 @@ mongo_id.shop_cover rec {
 
 mongo_id.good_cover rec {
     shop_1 rec {
-        
+        good_1 = "5d1d6ab66344590007151479";
+        good_2 = "5d1d6ac1634459000715147b";
+        good_3 = "5d1d6acc634459000715147d";
+        good_4 = "5d1d6ad9634459000715147f";
     };
 
     shop_2 rec {
-        
+        good_1 = "5d1d6b3b6344590007151481";
+        good_2 = "5d1d6b476344590007151483";
+        good_3 = "5d1d6b506344590007151485";
+        good_4 = "5d1d6b596344590007151487";
     };
 
     shop_3 rec {
-        
+        good_1 = "5d1d6bba6344590007151489";
+        good_2 = "5d1d6bd6634459000715148d";
+        good_3 = "5d1d6be0634459000715148f";
+        good_4 = "5d1d6bea6344590007151491";
     };
 
     shop_4 rec {
-        
+        good_1 = "5d1d6c2b6344590007151493";
+        good_2 = "5d1d6c356344590007151496";
+        good_3 = "5d1d6c416344590007151499";
+        good_4 = "5d1d6c51634459000715149b";
     };
 
     shop_5 rec {
-        
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
     };
 
     shop_6 rec {
-        
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
     };
 
     shop_7 rec {
-        
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
     };
 
     shop_8 rec {
-        
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
     };
 
     shop_9 rec {
-        
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
     };
 
     shop_10 rec {
-        
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
     };
 
     shop_11 rec {
-        
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
     };
 
     shop_12 rec {
-        
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
     };
 
     shop_13 rec {
-        
+        good_1 = "";
+        good_2 = "";
+        good_3 = "";
     };
 }
