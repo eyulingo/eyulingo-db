@@ -1,3 +1,9 @@
+mongo_id.default_avatar rec {
+    default_1 = "5d25569d6344590006015f02";
+    default_2 = "5d2556ac6344590006015f05";
+    default_3 = "5d2556e26344590006015f08";
+}
+
 mongo_id.user_avatar rec {
     user_1 = "5d1d5cbe634459000715142f";
     user_2 = "5d1d5d326344590007151431";
