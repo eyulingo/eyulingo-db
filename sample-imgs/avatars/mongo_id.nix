@@ -32,224 +32,224 @@ mongo_id.dist_avatar rec {
 # Distributor Avatars
 
 mongo_id.shop_cover rec {
-    shop_1 = "5d1d683a6344590007151455";
+    shop_1 = "5d2e877769515b0006bb7c26";
     # Name: Apple Store 零售店
 
-    shop_2 = "5d1d685a634459000715145a";
+    shop_2 = "5d2e87b869515b0006bb7c2a";
     # Name: Microsoft 零售店
 
-    shop_3 = "5d1d6868634459000715145c";
+    shop_3 = "5d2e87dd69515b0006bb7c2c";
     # Name: FamilyMart 全家便利店
 
-    shop_4 = "5d1d687e6344590007151463";
+    shop_4 = "5d2e87ef69515b0006bb7c2e";
     # Name: Lawson 罗森便利店
 
-    shop_5 = "5d1d688e6344590007151466";
+    shop_5 = "5d2e87fa69515b0006bb7c31";
     # Name: 7-Eleven 便利店
 
-    shop_6 = "5d1d689a6344590007151468";
+    shop_6 = "5d2e880269515b0006bb7c33";
     # Name: MontBlanc
 
-    shop_7 = "5d1d68a6634459000715146a";
+    shop_7 = "5d2e880b69515b0006bb7c35";
     # Name: 华为零售店
 
-    shop_8 = "5d1d68b3634459000715146c";
+    shop_8 = "5d2e881569515b0006bb7c37";
     # Name: 京东专卖店
 
-    shop_9 = "5d1d68bf634459000715146e";
+    shop_9 = "5d2e882569515b0006bb7c39";
     # Name: 魅族专卖店
 
-    shop_10 = "5d1d68cc6344590007151470";
+    shop_10 = "5d2e882f69515b0006bb7c3b";
     # Name: LUSH Fresh Handmade Cosmetics
 
-    shop_11 = "5d1d68de6344590007151473";
+    shop_11 = "5d2e883969515b0006bb7c3e";
     # Name: Walmart 沃尔玛
 
-    shop_12 = "5d1d68f36344590007151475";
+    shop_12 = "5d2e884169515b0006bb7c40";
     # Name: Mayo Clinic 药店
 
-    shop_13 = "5d1d69026344590007151477";
+    shop_13 = "5d2e884b69515b0006bb7c42";
     # Name: McDonald's 麦当劳快餐店
 }
 # Shops' Covers
 
 mongo_id.good_cover rec {
     shop_1 = {
-        good_1 = "5d1d6ab66344590007151479";
+        good_1 = "5d2e897369515b0006bb7c44";
         # Name: iPhone 8 Plus
 
-        good_2 = "5d1d6ac1634459000715147b";
+        good_2 = "5d2e898a69515b0006bb7c46";
         # Name: iPad Pro (12.9-inch)
 
-        good_3 = "5d1d6acc634459000715147d";
+        good_3 = "5d2e899669515b0006bb7c48";
         # Name: MacBook Pro (2019)
 
-        good_4 = "5d1d6ad9634459000715147f";
+        good_4 = "5d2e899f69515b0006bb7c4a";
         # Name: Apple Watch (Series 4)
     };
 
     shop_2 = {
-        good_1 = "5d1d6b3b6344590007151481";
+        good_1 = "5d2e89c469515b0006bb7c4c";
         # Name: Surface Pro 6
 
-        good_2 = "5d1d6b476344590007151483";
+        good_2 = "5d2e89d569515b0006bb7c4e";
         # Name: Surface Book 2
 
-        good_3 = "5d1d6b506344590007151485";
+        good_3 = "5d2e89df69515b0006bb7c50";
         # Name: Surface Studio
 
-        good_4 = "5d1d6b596344590007151487";
+        good_4 = "5d2e89e769515b0006bb7c52";
         # Name: Nokia Lumia 1520
     };
 
     shop_3 = {
-        good_1 = "5d1d6bba6344590007151489";
+        good_1 = "5d2e8a0c69515b0006bb7c54";
         # Name: 芝士咖喱猪排饭
 
-        good_2 = "5d1d6bd6634459000715148d";
+        good_2 = "5d2e8a1d69515b0006bb7c58";
         # Name: 滑蛋厚切猪排饭
 
-        good_3 = "5d1d6be0634459000715148f";
+        good_3 = "5d2e8a2769515b0006bb7c5a";
         # Name: 爆浆猪排饭
 
-        good_4 = "5d1d6bea6344590007151491";
+        good_4 = "5d2e8a2f69515b0006bb7c5c";
         # Name: 可口可乐（罐装）
     };
 
     shop_4 = {
-        good_1 = "5d1d6c2b6344590007151493";
+        good_1 = "5d2e8a5369515b0006bb7c5e";
         # Name: 奥尔良鸡排盖浇饭
 
-        good_2 = "5d1d6c356344590007151496";
+        good_2 = "5d2e8a5f69515b0006bb7c61";
         # Name: 大碗麻辣香锅饭
 
-        good_3 = "5d1d6c416344590007151499";
+        good_3 = "5d2e8a6769515b0006bb7c64";
         # Name: 沙茶牛肉双拼饭
 
-        good_4 = "5d1d6c51634459000715149b";
+        good_4 = "5d2e8a6f69515b0006bb7c66";
         # Name: 百事可乐（罐装）
     };
 
     shop_5 = {
-        good_1 = "5d1d6e80634459000715149d";
+        good_1 = "5d2e8a9169515b0006bb7c68";
         # Name: 奶油虾仁意大利面
 
-        good_2 = "5d1d6e8c634459000715149f";
+        good_2 = "5d2e8a9969515b0006bb7c6a";
         # Name: 咖喱鸡排饭团
 
-        good_3 = "5d1d6ea363445900071514a1";
+        good_3 = "5d2e8aa169515b0006bb7c6c";
         # Name: 超级海鲜披萨
 
-        good_4 = "5d1d6eb363445900071514a3";
+        good_4 = "5d2e8aa969515b0006bb7c6e";
         # Name: 海鲜烩炒饭
 
-        good_5 = "5d1d6ebe63445900071514a5";
+        good_5 = "5d2e8ab169515b0006bb7c70";
         # Name: 麻婆豆腐烩饭
 
-        good_6 = "5d1d6ecb63445900071514a7";
+        good_6 = "5d2e8ab869515b0006bb7c72";
         # Name: 炭烤风味鸡排便当
     };
 
     shop_6 = {
-        good_1 = "5d1d6f1b63445900071514a9";
+        good_1 = "5d2e8b3169515b0006bb7c74";
         # Name: 钢笔
 
-        good_2 = "5d1d6f2863445900071514ab";
+        good_2 = "5d2e8b3969515b0006bb7c76";
         # Name: 手表
 
-        good_3 = "5d1d6f3463445900071514ae";
+        good_3 = "5d2e8b4b69515b0006bb7c79";
         # Name: 墨水
     };
 
     shop_7 = {
-        good_1 = "5d1d6fb263445900071514b0";
+        good_1 = "5d2e8b6c69515b0006bb7c7b";
         # Name: 华为 P30 Pro
 
-        good_2 = "5d1d6fbf63445900071514b4";
+        good_2 = "5d2e8b7769515b0006bb7c7f";
         # Name: 华为 MagicBook 2
 
-        good_3 = "5d1d6fc963445900071514b6";
+        good_3 = "5d2e8b7f69515b0006bb7c81";
         # Name: 华为手环 3
     };
 
     shop_8 = {
-        good_1 = "5d1d703363445900071514b9";
+        good_1 = "5d2e8b9a69515b0006bb7c84";
         # Name: 超能天然皂粉
 
-        good_2 = "5d1d703e63445900071514bb";
+        good_2 = "5d2e8ba369515b0006bb7c86";
         # Name: 立白洗衣粉
 
-        good_3 = "5d1d704663445900071514bd";
+        good_3 = "5d2e8baa69515b0006bb7c88";
         # Name: 去渍霸超能去污洗衣粉
 
-        good_4 = "5d1d705263445900071514bf";
+        good_4 = "5d2e8bb269515b0006bb7c8a";
         # Name: 汰渍洗衣液
 
-        good_5 = "5d1d705e63445900071514c1";
+        good_5 = "5d2e8bba69515b0006bb7c8c";
         # Name: 蓝月亮护理洗衣液
     };
 
     shop_9 = {
-        good_1 = "5d1d710363445900071514c3";
+        good_1 = "5d2e8bda69515b0006bb7c8e";
         # Name: 魅族 16
 
-        good_2 = "5d1d711063445900071514c5";
+        good_2 = "5d2e8be169515b0006bb7c90";
         # Name: 魅族 Note 6
 
-        good_3 = "5d1d711a63445900071514c7";
+        good_3 = "5d2e8be869515b0006bb7c92";
         # Name: 魅族 16X
     };
 
     shop_10 = {
-        good_1 = "5d1d715d63445900071514c9";
+        good_1 = "5d2e8c0069515b0006bb7c94";
         # Name: 茄子绒布玩具
 
-        good_2 = "5d1d716863445900071514cb";
+        good_2 = "5d2e8c0769515b0006bb7c96";
         # Name: 冰激凌球绒布玩具
 
-        good_3 = "5d1d717263445900071514cd";
+        good_3 = "5d2e8c0e69515b0006bb7c98";
         # Name: 海盐洁面乳
     };
 
     shop_11 = {
-        good_1 = "5d1d71f363445900071514cf";
+        good_1 = "5d2e8c2a69515b0006bb7c9a";
         # Name: SNICKERS 士力架
 
-        good_2 = "5d1d71fe63445900071514d1";
+        good_2 = "5d2e8c3269515b0006bb7c9c";
         # Name: 苹果
 
-        good_3 = "5d1d720b63445900071514d3";
+        good_3 = "5d2e8c3969515b0006bb7c9e";
         # Name: 橙子
     };
 
     shop_12 = {
-        good_1 = "5d1d729c63445900071514d5";
+        good_1 = "5d2e8c5269515b0006bb7ca0";
         # Name: 金扶宁（外用重组人粒细胞巨噬细胞刺激因子凝胶剂）
 
-        good_2 = "5d1d72a763445900071514d7";
+        good_2 = "5d2e8c5a69515b0006bb7ca2";
         # Name: 美罗华（利妥昔单抗注射液）
 
-        good_3 = "5d1d72b263445900071514da";
+        good_3 = "5d2e8c7069515b0006bb7ca5";
         # Name: 舒莱（巴利息单抗注射液）
 
-        good_4 = "5d1d72bf63445900071514dc";
+        good_4 = "5d2e8c7969515b0006bb7ca7";
         # Name: 拓益（特瑞普单抗注射液）
     };
 
     shop_13 = {
-        good_1 = "5d1d732b63445900071514de";
+        good_1 = "5d2e8c9a69515b0006bb7ca9";
         # Name: Big Mac 巨无霸汉堡
 
-        good_2 = "5d1d733a63445900071514e0";
+        good_2 = "5d2e8ca269515b0006bb7cab";
         # Name: 炸薯条
 
-        good_3 = "5d1d734463445900071514e2";
+        good_3 = "5d2e8ca969515b0006bb7cad";
         # Name: McFlurry 麦旋风冰激凌
 
-        good_4 = "5d1d734f63445900071514e4";
+        good_4 = "5d2e8cb269515b0006bb7caf";
         # Name: 双拼汉堡
 
-        good_5 = "5d1d735963445900071514e6";
+        good_5 = "5d2e8cba69515b0006bb7cb1";
         # Name: 炸面包条
     };
 }
